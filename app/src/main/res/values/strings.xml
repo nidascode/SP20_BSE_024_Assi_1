@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SP20_BSE_024_Assi_1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="btn1">Add Record</string>
+    <string name="btn2">Search Record</string>
+    <string name="txt">message fragment</string>
+    <string name="mail">enter mail</string>
+    <string name="age">enter age</string>
+    <string name="address">enter address</string>
+    <string name="name">enter name</string>
+</resources>
