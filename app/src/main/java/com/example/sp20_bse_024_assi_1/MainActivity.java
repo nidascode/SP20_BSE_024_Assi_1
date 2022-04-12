@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity implements ActionFragment.Fr
     private ActionFragment actionFragment;
     private MsgFragment messageFragment;
     private RecordFragment recordFragment;
+    private SearchFragment searchFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -21,8 +22,9 @@ public class MainActivity extends AppCompatActivity implements ActionFragment.Fr
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        if(getResources().getConfiguration().orientation== Configuration.ORIENTATION_LANDSCAPE) {
-             fragManager = getSupportFragmentManager();
+        if(getResources().getConfiguration().orientation== Configuration.ORIENTATION_LANDSCAPE)
+        {
+            fragManager = getSupportFragmentManager();
             fragmentTrans = fragManager.beginTransaction();
             actionFragment = ActionFragment.newInstance();
             messageFragment = MsgFragment.newInstance();
@@ -38,6 +40,14 @@ public class MainActivity extends AppCompatActivity implements ActionFragment.Fr
     {
             fragmentTrans = fragManager.beginTransaction();
             fragmentTrans.replace(R.id.FragmentRight, recordFragment);
+            fragmentTrans.commitNow();
+    }
+
+    @Override
+    public void searchRecord()
+    {
+            fragmentTrans = fragManager.beginTransaction();
+            fragmentTrans.replace(R.id.FragmentRight, searchFragment);
             fragmentTrans.commitNow();
     }
 }

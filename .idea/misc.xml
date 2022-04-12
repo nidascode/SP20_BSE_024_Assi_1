@@ -4,10 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/nida/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/nida/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout/fragment_action.xml" value="0.16" />
         <entry key="..\:/Users/nida/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout/fragment_left.xml" value="0.1644021739130435" />
         <entry key="..\:/Users/nida/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout/fragment_left2.xml" value="0.1644021739130435" />
-        <entry key="..\:/Users/nida/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout/fragment_record.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/nida/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout/fragment_record.xml" value="0.18" />
         <entry key="..\:/Users/nida/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout/fragment_right.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/nida/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout/fragment_search.xml" value="0.13541666666666666" />
       </map>
     </option>
   </component>

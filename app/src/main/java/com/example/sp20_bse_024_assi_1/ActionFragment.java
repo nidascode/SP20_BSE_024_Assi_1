@@ -79,6 +79,12 @@ public class ActionFragment extends Fragment {
                 inter.record();
             }
         });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                inter.searchRecord();
+            }
+        });
     }
 
     @Override
@@ -95,5 +101,6 @@ public class ActionFragment extends Fragment {
     public interface FragmentActionInterface
     {
         public void record();
+        public void searchRecord();
     }
 }

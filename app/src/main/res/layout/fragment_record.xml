@@ -9,56 +9,68 @@
     <Button
         android:id="@+id/save"
         android:layout_width="0dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="273dp"
-        android:layout_marginEnd="10dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="0dp"
+        android:layout_marginBottom="528dp"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/mail"
+        app:layout_constraintStart_toStartOf="@+id/mail"
+        app:layout_constraintTop_toBottomOf="@+id/address"
+        tools:ignore="TouchTargetSizeCheck" />
 
-    <TextView
+    <EditText
         android:id="@+id/mail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="82dp"
+        android:layout_width="174dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginBottom="3dp"
+        android:ems="10"
         android:hint="@string/mail"
-        app:layout_constraintStart_toStartOf="@+id/age"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
-    <TextView
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/age"
+        app:layout_constraintEnd_toEndOf="@+id/age"
+        app:layout_constraintStart_toStartOf="@+id/age"
+        app:layout_constraintTop_toBottomOf="@+id/mail"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <EditText
         android:id="@+id/age"
         android:layout_width="0dp"
-        android:layout_height="16dp"
-        android:layout_marginTop="57dp"
-        android:layout_marginBottom="54dp"
-        android:text="TextView"
+        android:layout_height="0dp"
+        android:layout_marginBottom="6dp"
+        android:ems="10"
+        android:hint="@string/age"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/address"
         app:layout_constraintEnd_toEndOf="@+id/address"
         app:layout_constraintStart_toStartOf="@+id/address"
-        app:layout_constraintTop_toTopOf="@+id/mail" />
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
-    <TextView
+    <EditText
         android:id="@+id/address"
-        android:layout_width="133dp"
-        android:layout_height="21dp"
-        android:layout_marginStart="98dp"
-        android:layout_marginBottom="43dp"
-        android:text="TextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="6dp"
+        android:ems="10"
+        android:hint="@string/address"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/save"
-        app:layout_constraintStart_toStartOf="@+id/save" />
+        app:layout_constraintEnd_toEndOf="@+id/save"
+        app:layout_constraintStart_toStartOf="@+id/save"
+        app:layout_constraintTop_toBottomOf="@+id/age"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
-    <TextView
-        android:id="@+id/name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="123dp"
-        android:layout_marginEnd="121dp"
-        android:layout_marginBottom="38dp"
-        android:hint="@string/name"
-        app:layout_constraintBottom_toTopOf="@+id/age"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/mail" />
 </androidx.constraintlayout.widget.ConstraintLayout>

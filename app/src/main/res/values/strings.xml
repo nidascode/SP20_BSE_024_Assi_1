@@ -10,4 +10,5 @@
     <string name="age">enter age</string>
     <string name="address">enter address</string>
     <string name="name">enter name</string>
+    <string name="save">save record</string>
 </resources>
