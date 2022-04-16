@@ -3,12 +3,14 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="portrait_text">Rotate to Landscape</string>
     <string name="btn1">Add Record</string>
     <string name="btn2">Search Record</string>
-    <string name="txt">message fragment</string>
+    <string name="txt">Please select the appropriate action</string>
     <string name="mail">enter mail</string>
     <string name="age">enter age</string>
     <string name="address">enter address</string>
     <string name="name">enter name</string>
     <string name="save">save record</string>
+    <string name="search_fragment">Search Fragment</string>
 </resources>

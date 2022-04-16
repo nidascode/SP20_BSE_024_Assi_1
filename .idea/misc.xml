@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mhm13dev/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout-land/activity_main.xml" value="0.30687830687830686" />
+        <entry key="..\:/Users/mhm13dev/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout/activity_main.xml" value="0.28532608695652173" />
+        <entry key="..\:/Users/mhm13dev/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout/fragment_record.xml" value="0.28532608695652173" />
+        <entry key="..\:/Users/mhm13dev/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout/fragment_search.xml" value="0.28532608695652173" />
         <entry key="..\:/Users/nida/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/nida/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout/fragment_action.xml" value="0.16" />
         <entry key="..\:/Users/nida/AndroidStudioProjects/SP20_BSE_024_Assi_1/app/src/main/res/layout/fragment_left.xml" value="0.1644021739130435" />

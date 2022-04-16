@@ -6,71 +6,73 @@
     android:layout_height="match_parent"
     tools:context=".RecordFragment">
 
-    <Button
-        android:id="@+id/save"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="528dp"
-        android:text="@string/save"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/mail"
-        app:layout_constraintStart_toStartOf="@+id/mail"
-        app:layout_constraintTop_toBottomOf="@+id/address"
-        tools:ignore="TouchTargetSizeCheck" />
-
     <EditText
         android:id="@+id/mail"
-        android:layout_width="174dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="39dp"
-        android:layout_marginBottom="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="@string/mail"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/name"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+        tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/name"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
         android:ems="10"
         android:hint="@string/name"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/age"
-        app:layout_constraintEnd_toEndOf="@+id/age"
-        app:layout_constraintStart_toStartOf="@+id/age"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mail"
-        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+        tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/age"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
         android:ems="10"
         android:hint="@string/age"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/address"
-        app:layout_constraintEnd_toEndOf="@+id/address"
-        app:layout_constraintStart_toStartOf="@+id/address"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name"
-        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+        tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/address"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="19dp"
         android:ems="10"
         android:hint="@string/address"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/save"
-        app:layout_constraintEnd_toEndOf="@+id/save"
-        app:layout_constraintStart_toStartOf="@+id/save"
+        android:importantForAutofill="no"
+        android:inputType="textPostalAddress"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/age"
-        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+        tools:ignore="TextContrastCheck" />
 
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/save"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address" />
 </androidx.constraintlayout.widget.ConstraintLayout>
